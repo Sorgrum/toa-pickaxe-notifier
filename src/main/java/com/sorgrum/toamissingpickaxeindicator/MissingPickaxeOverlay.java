@@ -25,7 +25,7 @@ class MissingPickaxeOverlay extends OverlayPanel {
 
 
     @Inject
-    private MissingPickaxeOverlay(ToaMissingPickaxeIndicator plugin, ToaMissingPickaxeIndicatorConfig config, Client client) {
+    private MissingPickaxeOverlay(ToaMissingPickaxeIndicatorPlugin plugin, ToaMissingPickaxeIndicatorConfig config, Client client) {
         super(plugin);
         this.client = client;
         this.config = config;

@@ -7,7 +7,7 @@ public class ToaMissingPickaxeIndicatorPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ToaMissingPickaxeIndicator.class);
+		ExternalPluginManager.loadBuiltin(ToaMissingPickaxeIndicatorPlugin.class);
 		RuneLite.main(args);
 	}
 }
